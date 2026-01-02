@@ -7,7 +7,8 @@ import Purpose from "./components/Purpose";
 import FeaturesSection from './components/FeaturesSection';
 import ScheduleSection from './components/ScheduleSection';
 import MonitorSection from './components/MonitorSection';
-
+import PricingSection from './components/PrincingSection'
+import ServicesSection from './components/ServicesSection';
 
 export default function App() {
   return (
@@ -25,6 +26,8 @@ export default function App() {
     <FeaturesSection />
     <ScheduleSection />
     <MonitorSection />
+    <PricingSection />
+    <ServicesSection />
   </main>
 );
 

@@ -9,6 +9,8 @@ import ScheduleSection from './components/ScheduleSection';
 import MonitorSection from './components/MonitorSection';
 import PricingSection from './components/PrincingSection'
 import ServicesSection from './components/ServicesSection';
+import Testimonials from './components/Testimonials';
+import Newsletter from './components/Newsletter';
 
 export default function App() {
   return (
@@ -28,6 +30,8 @@ export default function App() {
     <MonitorSection />
     <PricingSection />
     <ServicesSection />
+    <Testimonials />
+    <Newsletter />
   </main>
 );
 

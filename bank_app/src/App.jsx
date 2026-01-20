@@ -13,6 +13,7 @@ import {
 } from './components'
 
 
+
 function App() {
   return (
     <div className='bg-primary w-full overflow-hidden'>
@@ -38,6 +39,7 @@ function App() {
           <Clients />
           <CTA  />
           <Footer />
+
         </div>
       </div>
     </div>

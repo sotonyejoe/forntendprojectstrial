@@ -14,13 +14,13 @@ const Hero = () => (
        </p>
       </div>
 
-      <div className='flex flex-row jusitfy-between items-center w-full'>
+      <div className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semi-bold ss:text-[72px] 
         text-[52px] text-white ss:leading-[100px] leading-18.75'>The Next <br className='sm:block hidden' />{" "}
         <span className='text-gradient'>Generation </span>{" "}
         Payment Method</h1>
 
-        <div className='ss:flex hidden md:mr-4 mr-0'>
+        <div className='ss:flex md:mr-4 mr-0'>
           <GetStarted />
         </div>
       </div>
